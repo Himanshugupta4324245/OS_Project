@@ -101,3 +101,9 @@ void main()
             }
         }
     }
+for(i=1;i<=n1;i++)
+    {
+        tat[i]=wt[i]+bt[i];
+        twt=twt+wt[i];
+        ttat=ttat+tat[i];
+    }
