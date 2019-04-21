@@ -107,3 +107,13 @@ for(i=1;i<=n1;i++)
         twt=twt+wt[i];
         ttat=ttat+tat[i];
     }
+   awt=(float)twt/n1;
+    atat=(float)ttat/n1;
+    printf("\n\n Process \t Process ID  \t BurstTime \t Waiting Time \t TurnaroundTime \n ");
+    for(i=1;i<=n1;i++)
+    {
+        printf("\n %5d \t %5d \t\t %5d \t\t %5d \t\t %5d \n", i,pid[i],bt[i],wt[i],tat[i]);
+    }
+    printf("\n The average Waiting Time=4.2f",awt);
+    printf("\n The average Turn around Time=4.2f",atat);
+}
