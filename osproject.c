@@ -114,6 +114,6 @@ for(i=1;i<=n1;i++)
     {
         printf("\n %5d \t %5d \t\t %5d \t\t %5d \t\t %5d \n", i,pid[i],bt[i],wt[i],tat[i]);
     }
-    printf("\n The average Waiting Time=4.2f",awt);
-    printf("\n The average Turn around Time=4.2f",atat);
+    printf("\n The average Waiting Time=%.2f",awt);
+    printf("\n The average Turn around Time=%.2f",atat);
 }
